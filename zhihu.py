@@ -61,7 +61,7 @@ _xsrf = getXSRF(data.decode())
   
 url += 'login'
 id = 'husoulking@163.com'
-password = 'o0o00o000'
+password = ''
 postDict = {
         '_xsrf':_xsrf,
         'email': id,
