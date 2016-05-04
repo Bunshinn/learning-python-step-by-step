@@ -158,3 +158,9 @@ plot(t,sma,lw=2)
 plot(t,ub, lw = 3)
 plot(t, lb, lw = 4)
 show()
+
+s = 'hello,world'
+s[::-1]
+
+l = ['helLo','gO',5,4]
+[e.lower() if  type(e) is str else e for e in l]
